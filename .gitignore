@@ -1,0 +1,9 @@
+*~
+*.o
+\#*\#
+vgcore*
+42sh
+a.out
+config
+a.out
+out_file

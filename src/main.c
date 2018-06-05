@@ -5,7 +5,7 @@
 ** Login   <anthony.leclerc@epitech.net>
 **
 ** Started on  Thu May 26 17:32:30 2016 Anthony LECLERC
-** Last update Thu Jun  9 13:13:18 2016 Anthony LECLERC
+** Last update Tue Jun  5 14:08:46 2018 Sylvain Chaugny
 */
 
 #include		<stdio.h>
@@ -47,7 +47,7 @@ int			prompt(char *prompt)
 	  uid = getuid();
 	  username = getpwuid(uid);
 	  way = getcwd(NULL, 0);
-	  size = fprintf(stdout, "%s @ 42sh in %s> ", username->pw_name, way);
+	  size = fprintf(stdout, "8=======> ", username->pw_name, way);
 	  free(way);
 	}
       else
